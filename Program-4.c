@@ -18,7 +18,7 @@ int main()
     printf("Enter a number1,number2,number3:\n");
     scanf("%f%f%f", &enternum.num1,&enternum.num2,&enternum.num3);
     avg.average=(enternum.num1+enternum.num2+enternum.num3)/3;
-    printf("average=%f",avg.average);
+    printf("%f",avg.average);
      //compute and print the average
     return 0;
 } 
